@@ -22,7 +22,7 @@ button.addEventListener("click",function(){
         var translatedtext=json.contents.translated;
         console.log(translatedtext);
         output_trans.innerHTML=translatedtext;
-    })
+      })
     .catch(errorHandler)
     
 });
