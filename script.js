@@ -11,7 +11,7 @@ function getTranslated(text){
 }
 
 function errorHandler(error){
-    console.log(error);
+    alert("maximum limit reached");
 }
 
 button.addEventListener("click",function(){
