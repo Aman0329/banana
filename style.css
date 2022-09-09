@@ -2,22 +2,23 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 body h1{
     font-weight: bold;
-    font-size: 4em;
-    font-family: 'Anton', sans-serif; text-align: center;
+    font-size: 2em;
+    text-align: center;
     color: yellow;
     background-color: darkblue;
+    width: 100vw;
 }
 #inputtrans{
-    width: 789px;
-height: 285px;
-    margin-top:20px ;
-    margin-left: 20px;
+font-size: 1.5rem;
+    display: block;
+    width: 25vw;
+height: 50vh;
     border: 5px solid darkgoldenrod;
     border-radius: 20px;
-    font-size: 2.5em;
     padding: 5px;
     color:black;
     font-weight: bold;
@@ -25,8 +26,8 @@ height: 285px;
 }
 #btn{
     height: 60px;
-    margin-left: 15%;
-    margin-top: 10px;
+    margin-left: 42%;
+    margin-top: 40px;
     width: 250px;
     cursor: pointer;
     font-size: large;
@@ -35,26 +36,50 @@ height: 285px;
     border-radius: 15px;
     color: blue;
 }
-h3{
-  font-size: 2em;
-  font-weight: bold;
-  margin-left: 60%;
+.headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.h3out{
+margin-bottom: 20px;
+  margin-left: 280px;
+    display: flex;
+}
+.h3{
+margin-bottom: 20px;
+    display: flex;
+
+  
 }
 .h3 h3{
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 5%;
-    margin-top: 10px;
+    width: 30vw;
+}
+.h3out h3{
+    width: 30vw;
 }
 #outputtrans{
-    width: 789px;
-height: 285px;
-    margin-top:20px ;
-    margin-left: 55%;
+    font-size: 1.5rem;
+    display: block;
+    width: 25vw;
+height: 50vh;
     border: 5px solid darkgoldenrod;
     border-radius: 20px;
-    font-size: 2.5em;
     padding: 5px;
     color:black;
     font-weight: bold;
+    margin-left: 300px;
+
+}
+.containers{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
